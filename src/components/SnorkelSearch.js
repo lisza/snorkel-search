@@ -2,7 +2,7 @@ import React, { Fragment } from 'react'
 
 import data from '../data/sentences.json'
 import SearchBar from './SearchBar'
-import ResultList from './ResultList'
+import DataViewer from './DataViewer'
 
 
 function SnorkelSearch() {
@@ -27,10 +27,7 @@ function SnorkelSearch() {
   return (
     <Fragment>
       <SearchBar searchValue={searchValue} handleChange={handleChange} />
-
-      <p>{searchValue}</p>
-
-      <ResultList sentenceData={filteredData} />     
+      <DataViewer sentenceData={filteredData} />     
     </Fragment>
   )
 }

@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
 
 
-function ResultItem(props) {
+function Sentence(props) {
 	return (
 	  <Fragment>
 	    <li>{props.data}</li>
@@ -9,4 +9,4 @@ function ResultItem(props) {
 	)
 }
 
-export default ResultItem
+export default Sentence

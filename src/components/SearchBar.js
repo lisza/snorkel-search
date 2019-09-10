@@ -3,12 +3,14 @@ import React from 'react'
 
 function SearchBar(props) {
   return (
-    <input
-      id='searchBar'
-      type='text'
-      value={props.searchValue}
-      onChange={props.handleChange}
-    />
+  	<div className='SearchBar'>
+	    <input
+	      id='search-bar'
+	      type='text'
+	      value={props.searchValue}
+	      onChange={props.handleChange}
+	    />
+    </div>
   )
 }
 
