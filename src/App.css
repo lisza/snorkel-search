@@ -1,8 +1,11 @@
+/* App styles */
 .App {
   text-align: center;
   margin: 20px;
 }
 
+
+/* SearchBar styles */
 .SearchBar input {
 	border: 1px solid gray;
 	border-radius: 4px;
@@ -12,10 +15,20 @@
 	width: 200px;
 }
 
+
+/* DataViewer and List styles */
 .DataViewer ul {
 	list-style-type: none;
 }
 
 .DataViewer li {
 	margin-bottom: 12px;
+}
+
+.DataViewer li .highlight {
+	background: orange;
+	border-radius: 4px;
+	box-shadow: 0 0 3px #000;
+	margin: 0 1px;
+	padding: 2px;
 }

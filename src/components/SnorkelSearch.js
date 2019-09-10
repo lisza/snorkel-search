@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React, { Fragment, useState } from 'react'
 
 import data from '../data/sentences.json'
 import SearchBar from './SearchBar'
@@ -6,8 +6,9 @@ import DataViewer from './DataViewer'
 
 
 function SnorkelSearch() {
-  const [searchValue, setSearchValue] = React.useState("")
-  const [filteredData, setFilteredData] = React.useState(data)
+  // Using react hooks to set state (https://reactjs.org/docs/hooks-state.html)
+  const [searchValue, setSearchValue] = useState("")
+  const [filteredData, setFilteredData] = useState(data)
 
   function handleChange(e) {
     const search = e.target.value
@@ -27,7 +28,7 @@ function SnorkelSearch() {
   return (
     <Fragment>
       <SearchBar searchValue={searchValue} handleChange={handleChange} />
-      <DataViewer sentenceData={filteredData} />     
+      <DataViewer sentenceData={filteredData} searchValue={searchValue} />     
     </Fragment>
   )
 }
