@@ -1,4 +1,7 @@
-import React, { Fragment } from 'react';
+import React, { Fragment } from 'react'
+import data from '../data/sentences.json'
+import ResultList from './ResultList'
+
 
 function SnorkelSearch() {
   const [searchValue, setSearchValue] = React.useState("")
@@ -18,9 +21,10 @@ function SnorkelSearch() {
     />
 
     <p>{searchValue}</p>
+    <ResultList sentenceData={data} />
       
     </Fragment>
   )
 }
 
-export default SnorkelSearch;
+export default SnorkelSearch
