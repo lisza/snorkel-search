@@ -18,8 +18,9 @@ function SnorkelSearch() {
   }
 
   function filterData(search) {
+    search = search.toLowerCase(search)
     return data.filter(el => {
-      return el.data.includes(search)
+      return el.data.toLowerCase().includes(search)
     })
   }
 
