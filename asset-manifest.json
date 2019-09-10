@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/snorkel-search/static/css/main.edab1483.chunk.css",
+    "main.js": "/snorkel-search/static/js/main.895cbd71.chunk.js",
+    "main.js.map": "/snorkel-search/static/js/main.895cbd71.chunk.js.map",
+    "runtime~main.js": "/snorkel-search/static/js/runtime~main.c06b8947.js",
+    "runtime~main.js.map": "/snorkel-search/static/js/runtime~main.c06b8947.js.map",
+    "static/js/2.87e5af65.chunk.js": "/snorkel-search/static/js/2.87e5af65.chunk.js",
+    "static/js/2.87e5af65.chunk.js.map": "/snorkel-search/static/js/2.87e5af65.chunk.js.map",
+    "index.html": "/snorkel-search/index.html",
+    "precache-manifest.0a2fd88eff35ec043d6bb51a7880fe65.js": "/snorkel-search/precache-manifest.0a2fd88eff35ec043d6bb51a7880fe65.js",
+    "service-worker.js": "/snorkel-search/service-worker.js",
+    "static/css/main.edab1483.chunk.css.map": "/snorkel-search/static/css/main.edab1483.chunk.css.map"
+  }
+}
