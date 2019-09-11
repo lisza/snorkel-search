@@ -3,6 +3,8 @@ import Sentence from './Sentence'
 
 
 function DataViewer(props) {
+	console.log(props.sentenceData)
+
   return (
   	<div className='DataViewer'>
 	    <ul>
@@ -10,6 +12,7 @@ function DataViewer(props) {
 	        return <Sentence
 	        	key={item.id}
 	        	data={item.data}
+	        	highlight={item.match}
 	        	search={props.searchValue}
 	        />
 	      })}
