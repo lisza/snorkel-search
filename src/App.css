@@ -25,17 +25,10 @@
 	margin-bottom: 12px;
 }
 
-/*.DataViewer li .highlight {
+.DataViewer li .highlight {
 	background: orange;
 	border-radius: 4px;
 	box-shadow: 0 0 3px #000;
 	margin: 0 1px;
-	padding: 2px;
-}*/
-
-.DataViewer li.highlight {
-	background: orange;
-	border-radius: 4px;
-	box-shadow: 0 0 3px #000;
 	padding: 2px;
 }
