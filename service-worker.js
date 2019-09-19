@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/snorkel-search/precache-manifest.f4715e9a065574b1bf68ed315c977f02.js"
+  "/snorkel-search/precache-manifest.0a2fd88eff35ec043d6bb51a7880fe65.js"
 );
 
 self.addEventListener('message', (event) => {
